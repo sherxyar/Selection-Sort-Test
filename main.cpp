@@ -41,7 +41,8 @@ void sort (int arrayTosort[],int numberItem)
           minIndex = j;
         }
       }
-      // we got our minimum index from the above loop, we swap it with position i of the array which is 0 here(in the first iteration) this continues as next iteration will start from index 2.
+      // we got our minimum index from the above loop, we swap it with position i of the array which is 0 here(in the first iteration)
+      //  this continues as next iteration will start from index 2.
       swap(&arrayTosort[minIndex],&arrayTosort[i] );
     }
 }  
